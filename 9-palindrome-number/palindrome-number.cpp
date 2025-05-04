@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isPalindrome(int x) {
-        long reverse=0;
+        long long reverse=0;
         int remainder;
         int temp=x;
         while(temp>0)
